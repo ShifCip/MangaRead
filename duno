@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Steam Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #171a21;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('https://via.placeholder.com/1500x500');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #45a045;
+}
+
+.featured-games {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #171a21;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+</style>
+<body>
+    <header>
+        <div class="logo">My Steam Clone</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to My Steam Clone</h1>
+        <p>Discover, play, and share your favorite games here!</p>
+        <a href="#" class="cta-button">Explore Now</a>
+    </section>
+
+    <section class="featured-games">
+        <h2>Featured Games</h2>
+        <!-- Add some featured game cards here -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Steam Clone</p>
+    </footer>
+</body>
+</html>
